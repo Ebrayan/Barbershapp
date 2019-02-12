@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Service_List">
+        <item>Corte 1</item>
+        <item>Corte 2</item>
+        <item>Cortw 3</item>
+        <item>Cortw 4</item>
+        <item>Cortw 5</item>
+        <item>Cortw 6</item>
+        <item>Cortw 7</item>
+        <item>Cortw 8</item>
+        <item>Cortw 9</item>
+    </string>
+
+</resources>

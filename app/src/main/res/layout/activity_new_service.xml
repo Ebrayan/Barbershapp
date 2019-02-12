@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewService">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ActivityRegistrrarCompania"
+        android:gravity="center"
+        >
+
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_add_a_photo_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Registrar Servicio"
+            />
+
+        <EditText
+            android:id="@+id/txt_nombre_compania"
+            android:textAlignment="center"
+            android:hint="Nombre del servicio"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_margin="10dp"
+            />
+
+        <EditText
+            android:id="@+id/txt_correo_compania"
+            android:textAlignment="center"
+            android:hint="Precio"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            />
+
+
+        <EditText
+            android:id="@+id/txt_pass_compania"
+            android:textAlignment="center"
+            android:hint="Sesion"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_margin="10dp"
+            />
+
+
+
+        <Button
+
+            android:id="@+id/btn_registrar_empresa"
+            android:textStyle="bold"
+            android:text="Registrar"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background1"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
